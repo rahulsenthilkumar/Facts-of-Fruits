@@ -1,0 +1,135 @@
+
+#heading {
+	color:#16c79a;
+	font-size: 50px;
+	text-align: center;
+	text-decoration: underline;
+	-webkit-animation:colorchange 10s infinite alternate; 
+    }
+
+    @-webkit-keyframes colorchange {  0% 
+    
+         { 
+      color:green;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+
+body{
+	background-color:#d2f6c5;}
+
+head{
+	background-color: green;
+}
+
+
+
+.apple{
+	background-color: red;
+}
+
+.apple:hover{
+	background-color:greenyellow;
+	border-radius: 30% 0% 30% 0%;
+}
+
+.orange{
+	background-color: orange;
+}
+
+.orange:hover{
+	background-color: greenyellow;
+	border-radius: 0% 30% 0% 30%;
+}
+
+.mango{
+	background-color: yellow;
+}
+
+.mango:hover{
+	background-color: greenyellow;
+	border-radius: 30% 0% 30% 0%;
+}
+
+.grapes{
+	background-color: violet;
+}
+
+.grapes:hover{
+	background-color: greenyellow;
+	border-radius: 0% 30% 0% 30%;
+}
+
+.watermelon{
+	background-color: green;
+}
+
+.watermelon:hover{
+	background-color: greenyellow;
+	border-radius: 30% 0% 30% 0%;
+}
+
+ul{
+	color:#54e346;
+	font-weight: bolder;
+}
+
+ul:hover {
+	color:deeppink;
+}
+
+H2{
+	color:red;
+}
+
+marquee {
+	color:#0e49b5;
+}
